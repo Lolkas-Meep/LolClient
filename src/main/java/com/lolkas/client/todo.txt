@@ -1,0 +1,8 @@
+no fog
+esp
+auto totem
+explode prt
+better fps
+.d dupe
+xray
+player esp tracers

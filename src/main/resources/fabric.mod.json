@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${1.1}",
+
+  "name": "Lolkas client",
+  "description": "you can funi now",
+  "authors": [
+    "Lolkas",
+    "amogus impostor"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.lolkas.client.Client",
+      "com.lolkas.client.funStuff.zoom.Zoom",
+      "com.lolkas.client.funStuff.autoclicker.AutoClickerMain",
+      "com.lolkas.client.funStuff.Gamma.gamma",
+      "com.lolkas.client.funStuff.smallMods.deathCoords.deathCoordsMain",
+      "com.lolkas.client.funStuff.smallMods.hud.tick",
+      "com.lolkas.client.funStuff.speed.Speed",
+      "com.lolkas.client.funStuff.noFall.NoFall",
+      "com.lolkas.client.funStuff.flight.Flight"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
