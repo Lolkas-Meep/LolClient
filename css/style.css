@@ -1,0 +1,35 @@
+background
+{
+    background-color: white;
+}
+p 
+{
+    font-family: Arial;
+    font-size: larger;
+}
+#top
+{
+    background-color: rgb(4, 192, 255);
+}
+#desc
+{
+    background-color: lightskyblue;
+    
+}
+#download
+{
+    background-color: rgb(112, 112, 112);
+}
+#button
+{
+    background-color: rgb(255, 50, 50);
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 30px;
+    transform: translate(705px, -10px);
+}
