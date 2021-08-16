@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${1.1}",
+  "id": "lolclient",
+  "version": "${2.1}",
 
   "name": "Lolkas client",
   "description": "you can funi now",
@@ -15,20 +15,15 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/LolClient/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.lolkas.client.Client",
-      "com.lolkas.client.funStuff.zoom.Zoom",
-      "com.lolkas.client.funStuff.autoclicker.AutoClickerMain",
-      "com.lolkas.client.funStuff.Gamma.gamma",
-      "com.lolkas.client.funStuff.smallMods.deathCoords.deathCoordsMain",
-      "com.lolkas.client.funStuff.smallMods.hud.tick",
-      "com.lolkas.client.funStuff.speed.Speed",
-      "com.lolkas.client.funStuff.noFall.NoFall",
-      "com.lolkas.client.funStuff.flight.Flight"
+      "me.lolkas.client.Client",
+      "me.lolkas.client.funStuff.modules.zoom.Zoom",
+      "me.lolkas.client.funStuff.modules.smallMods.deathCoords.deathCoordsMain",
+      "me.lolkas.client.funStuff.modules.smallMods.hud.tick"
     ]
   },
   "mixins": [

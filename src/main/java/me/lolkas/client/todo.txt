@@ -1,0 +1,5 @@
+no fog
+auto totem
+explode prt
+better fps
+

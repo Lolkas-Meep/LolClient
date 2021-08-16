@@ -1,16 +1,20 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.lolkas.client.mixin",
+  "package": "me.lolkas.client.mixin",
   "compatibilityLevel": "JAVA_16",
-  "mixins": [
-  ],
   "client": [
-    "player.ScreenMixin",
-    "player.InventoryScreenMixin",
+    "network.ClientConnectionMixin",
+    "player.ClientPlayerEntityMixin",
     "player.IMinecraftClient",
+    "player.InGameHudMixin",
+    "player.InventoryScreenMixin",
+    "player.ScreenMixin",
+    "world.EntityRendererMixin",
     "world.GameRendererMixin",
-    "player.ClientPlayerEntityMixin"
+    "player.MinecraftClientMixin",
+    "world.BlockMixin",
+    "world.AbstractBlockStateMixin"
   ],
   "injectors": {
     "defaultRequire": 1
